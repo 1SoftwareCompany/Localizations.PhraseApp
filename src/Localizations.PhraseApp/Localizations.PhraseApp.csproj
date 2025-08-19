@@ -5,13 +5,13 @@
 
   <!--Nuget-->
   <PropertyGroup>
-    <PackageId>Localizations.PhraseApp</PackageId>
-    <Product>Localizations</Product>
-    <Title>Localizations</Title>
+    <PackageId>One.Localizations.PhraseApp</PackageId>
+    <Product>One.Localizations</Product>
+    <Title>One.Localizations</Title>
     <Authors>Elders OSS</Authors>
-    <Copyright>Copyright © Elders OSS 2013-2024</Copyright>
+    <Copyright>Copyright © 1Software</Copyright>
     <Description>Localization PhraseApp implementation for .NET applications</Description>
-    <PackageTags>elders localization translation locale PhraseApp</PackageTags>
+    <PackageTags>1Software localization translation locale PhraseApp</PackageTags>
     <PackageLicenseUrl>https://github.com/Elders/Localizations/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Elders/Localizations</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Elders/Localizations.git</RepositoryUrl>
@@ -23,10 +23,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Localizations" Version="3.0.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="One.Localizations" Version="3.0.3" />
   </ItemGroup>
 
 </Project>
